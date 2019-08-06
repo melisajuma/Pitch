@@ -6,7 +6,7 @@ Author: Melisa Juma
 
 This is a web application that allows various users to submit a short pitch. Users can also be able to view other pitches from different categories (Pick-up Lines, Interview Pitches, Product Pitches, Promotion Pitches), comment and vote. For a user to do any of that, they need to have registered.
 
-##User Stories
+## User Stories
 
 * As a user I would like to view the different categories.
 * As a user I would like to see the pitches other people have posted.
@@ -33,7 +33,7 @@ This is a web application that allows various users to submit a short pitch. Use
 
 ## Setup/Installation Requirements
 * Internet access
-* $ git clone 
+* $ git clone : https://github.com/melisajuma/Pitch.git
 * $ cd one-minute-pitch
 * $ python3.6 -m venv virtual (install virtual environment)
 * $ source virtual/bin/activate
