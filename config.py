@@ -5,7 +5,7 @@ class Config:
     SQLACHEMY_TRACK_MODIFICATIONS = False
     #SQLALCHEMY_DATABASE_MODIFICATIONS = 'postgresql+psycopg2://moringa:mel123\q@localhost/pitch'
     
-    SECRET_KEY = 'happy'>
+    SECRET_KEY = 'happy'
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
