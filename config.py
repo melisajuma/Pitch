@@ -1,5 +1,5 @@
 import os
-
+#from sqlalchemy import create_engine
 class Config:
     
     SQLACHEMY_TRACK_MODIFICATIONS = False
@@ -14,14 +14,14 @@ class Config:
     
 class ProdConfig(Config):
     
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+    SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://moringa:mel123@localhost/pitch'
         
         
 class DevConfig(Config):
     
-     SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://moringa:mel123@127.0.0.1/pitch'
+     SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://moringa:mel123@localhost/pitch'
      DEBUG = True
-        
+#engine = create_engine('postgresql://moringa:mel123@localhost/pitch')
 #class TestConfig(Config):
     #SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:mel123@localhost/pitch'
         
@@ -29,5 +29,5 @@ class DevConfig(Config):
 config_options = {
     'development': DevConfig,
     'production': ProdConfig,
-    #'test':TestConfig
+    
 }
