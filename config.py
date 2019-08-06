@@ -6,11 +6,11 @@ class Config:
     #SQLALCHEMY_DATABASE_MODIFICATIONS = 'postgresql+psycopg2://moringa:mel123\q@localhost/pitch'
     
     SECRET_KEY = 'happy'
-    MAIL_SERVER = 'smtp.gmail.com'
-    MAIL_PORT = 5432
-    MAIL_USE_TLS = True
-    MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
-    MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
+    # MAIL_SERVER = 'smtp.gmail.com'
+    # MAIL_PORT = 587
+    # MAIL_USE_TLS = True
+    # MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
+    # MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
     
 class ProdConfig(Config):
     
