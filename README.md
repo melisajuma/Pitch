@@ -34,15 +34,16 @@ This is a web application that allows various users to submit a short pitch. Use
 ## Setup/Installation Requirements
 * Internet access
 * $ git clone : https://github.com/melisajuma/Pitch.git
-* $ cd one-minute-pitch
+* $ cd pitch
 * $ python3.6 -m venv virtual (install virtual environment)
 * $ source virtual/bin/activate
 * $ python3.6 -m pip install -r requirements.txt (install all dependencies)
 * $ ./start.sh
 
 ## How the app works
-A user needs to sign up
-A user the needs to sign in to vote and post pitches
+* A user needs to log in if they have na existing account
+* A user can sign up f they do not have an account
+* A user then needs to sign in to vote,comment and post pitches
 
 
 ## Contacts
