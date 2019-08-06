@@ -16,7 +16,6 @@ class ProdConfig(Config):
     
     SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://moringa:mel123@localhost/pitch'>
         
-        
 class DevConfig(Config):
     
      SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://moringa:mel123@localhost/pitch'
